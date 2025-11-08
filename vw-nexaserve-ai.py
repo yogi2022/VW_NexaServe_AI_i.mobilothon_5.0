@@ -210,8 +210,7 @@ st.markdown("""
 # ================================
 
 # Initialize OpenAI Client with provided API key
-OPENAI_API_KEY = "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"
-
+# OPENAI_API_KEY = "Enter your API Key"
 try:
     client = OpenAI(api_key=OPENAI_API_KEY)
 except Exception as e:
